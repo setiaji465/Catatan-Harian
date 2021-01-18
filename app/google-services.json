@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "272760015478",
+    "project_id": "catatan-harian-saya",
+    "storage_bucket": "catatan-harian-saya.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272760015478:android:01f8150d1a5bb08f7ded57",
+        "android_client_info": {
+          "package_name": "com.example.catatanhariansaya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272760015478-k4h86h1flns8o1tuhac47si2jtjj2bha.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjfUrYJTqdPpSaP06ooi4Y_rXDL7GgDgk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272760015478-k4h86h1flns8o1tuhac47si2jtjj2bha.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

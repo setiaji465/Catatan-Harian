@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".FormPRActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="PEKERJAAN RUMAH"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etPRNameEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:background="@android:color/white"
+        android:hint="Nama Pelajaran"/>
+    <EditText
+        android:id="@+id/etPRDescriptionEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:lines="10"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:background="@android:color/white"
+        android:hint="Disuruh apa?"/>
+
+    <Button
+        android:id="@+id/btActForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/white"
+        android:text="TAMBAH"
+        android:textColor="@android:color/holo_blue_dark" />
+
+</LinearLayout>
